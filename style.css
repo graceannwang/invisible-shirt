@@ -1,3 +1,37 @@
+body {
+    margin: 0;
+    text-decoration: none;
+}
+
+/* TOP SECTION */
 .header-main-wrap {
-    background-color: pin;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px 40px 60px;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 80%;
+    margin: 20px;
+}
+.header a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+.right-links {
+    list-style-type: none;
+    margin: 25px 45px;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+    font-family: "Hero";
 }
