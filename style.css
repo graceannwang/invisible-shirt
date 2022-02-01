@@ -116,3 +116,35 @@ button {
     font-weight: bold;
     text-align: right;
 }
+
+/* ======= CALL TO ACTION ======= */
+.signup-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.signup-box {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    padding: 20px 80px;
+    margin: 80px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.signup-title {
+    font-weight: bold;
+}
+
+.signup-title,
+.signup-subtitle {
+    margin: 10px;
+    color: white;
+}
+
+.shop-button {
+    border: 2px solid;
+    padding: 5px 10px;
+}
