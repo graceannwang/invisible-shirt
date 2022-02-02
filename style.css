@@ -20,7 +20,7 @@ body {
 .logo {
     width: 80px;
     height: 80px;
-    border-radius: 80%;
+    border-radius: 60%;
     margin: 20px;
 }
 .header a {
@@ -74,6 +74,8 @@ button {
 .info-wrap {
     display: flex;
     flex-direction: column;
+    gap: 15px;
+    padding: 22px;
 }
 
 .info-title-wrap {
@@ -86,7 +88,7 @@ button {
     display: flex;
     justify-content: center;
     align-content: center;
-    gap: 25px;
+    gap: 50px;
 }
 
 .icons-wrap div {
@@ -94,9 +96,14 @@ button {
 }
 
 .icons-wrap img {
-    width: 90px;
+    width: 50px;
     border: 2px solid #3882F6;
-    border-radius: 8px;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.icons-wrap p {
+    text-align: center;
 }
 
 /* ======= QUOTE ======= */
